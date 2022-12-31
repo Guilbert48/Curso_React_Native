@@ -1,12 +1,12 @@
 import React from 'react'
 import { Text } from 'react-native'
 import Estilo from '../estilo'
-import produtos from './Produtos'
+import Produtos from './Produto'
 
 
 export default props => {
     function obterLista() {
-        return produtos.map( p =>{
+        return Produtos.map( p =>{
             return <Text key={p.id} style={Estilo.txtG}>{p.id} {p.nome} custa R$ {p.preco}</Text>
         })
 

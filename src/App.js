@@ -1,13 +1,19 @@
 import React from 'react'
-import { Text, View, StyleSheet } from 'react-native'
-import ListaProdutos from './components/Produtos/ListaProdutos'
+import { View, StyleSheet } from 'react-native'
+import FlexboxV1 from './components/layout/FlexboxV1'
+//import DigiteSeuNome from './components/DigiteSeuNome'
+//import Lista2 from './components/Produtos/Lista2'
+//import ListaProdutos from './components/Produtos/ListaProdutos'
 //import Usuariologado from './components/Usuariologado'
 
 
 export default () => (
     <View style={style.App}>
-        <ListaProdutos />
+        <FlexboxV1/>
     {/*
+        <DigiteSeuNome />
+        <Lista2 />
+        <ListaProdutos />
         }
         <Usuariologado usuario={{ nome: 'Guilbert', email: 'guilberts48@gmail.com' }} />
         <Usuariologado usuario={{ email: 'guilberts48@gmail.com' }} />
