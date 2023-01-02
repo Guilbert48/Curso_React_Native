@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
 import FlexboxV1 from './components/layout/FlexboxV1'
+import Mega from './components/mega/Mega'
 //import DigiteSeuNome from './components/DigiteSeuNome'
 //import Lista2 from './components/Produtos/Lista2'
 //import ListaProdutos from './components/Produtos/ListaProdutos'
@@ -9,8 +10,9 @@ import FlexboxV1 from './components/layout/FlexboxV1'
 
 export default () => (
     <View style={style.App}>
-        <FlexboxV1/>
+        <Mega qtdeNumeros={7} /> 
     {/*
+        <FlexboxV1/>
         <DigiteSeuNome />
         <Lista2 />
         <ListaProdutos />
